@@ -600,6 +600,109 @@ footer .social a:hover {
 }
 
 /* MEDIA QUERIES */
+
+
+
+
+/*Medium devices: 767 > TAREFA */
+@media (min-width: 767px) {
+  :root {
+    --title-font-size: 13rem;
+    --subtitle-font-size: 1.5rem;
+  }
+  #home .image img {
+    width: 80%;
+  }
+  #about .image img {
+    width: 75%;
+  }
+}
+
+
+/*Large devices: 992 >*/
+@media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
+  }
+    #home .image img {
+      width: 80%;
+    }
+    #about .image img {
+      width: 75%;
+    }
+}
+
+/*Large Devices: 1023 > TAREFA */
+@media (min-width: 1023px) and (max-width: 1199px){
+  .container {
+    max-width: 1023px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section {
+    padding: 10rem 0;
+  }
+  
+  /*Menu*/
+  nav .menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+  }
+
+  nav .menu ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+  }
+
+  nav .menu ul li a.title {
+    font: 400 1rem var(--body-font);
+    color: var(--body-color);
+    -webkit-font-smoothing: auto;
+  }
+
+  nav .menu ul li a.title .active {
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  nav .icon-menu {
+    display: none;
+  }
+
+  
+  main {
+    margin-top: var(--header-height);
+  }
+
+  /*Header*/
+  /*Sobre*/
+  #sobre .container {
+    margin-left: 2rem;
+  }
+
+  /*Servicos*/
+  #servicos .container {
+    margin-left: 10rem;
+  }
+
+
+  /*Portifolio*/
+  #portifolio .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  /*Contato*/
+  #contact {
+    margin-left: 2rem;
+  }
+  /*Footer*/
+  footer .container {
+    margin-left: 5rem;
+  }
+}
+
 /*Extra large devices: 1200 > */
 @media (min-width: 1200px) {
   /*Reusables classes*/
@@ -731,17 +834,3 @@ footer .social a:hover {
     font-size: 2.5rem;
   }
 }
-
-
-/*Large Devices: 1023 > TAREFA */
-
-
-/*Large devices: 992 >*/
-@media (min-width: 992px) {
-  :root {
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
-  }
-}
-    
-/*Medium devices: 767 > TAREFA */

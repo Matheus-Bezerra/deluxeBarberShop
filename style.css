@@ -636,13 +636,12 @@ footer .social a:hover {
 /*Large Devices: 1023 > TAREFA */
 @media (min-width: 1023px) and (max-width: 1199px){
   .container {
-    max-width: 1023px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
-  .section {
-    padding: 10rem 0;
-  }
+  
+
   
   /*Menu*/
   nav .menu {

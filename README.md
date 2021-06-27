@@ -8,7 +8,7 @@
   <li> CSS 3 </li>
   <li> Javasript </li>
 </ul>
-<br>
 <hr>
+<br>
 <p>Você pode acessar o site através  do link <a href="https://matheus-bezerra.github.io/deluxeBarberShop" target="_blank"> DeluxeBarberShop </a>
 <p> Layout realizado por Matheus Bezerra, espero que goste!
